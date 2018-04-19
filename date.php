@@ -12,8 +12,8 @@ echo "<hr>";
 echo $dateTime2->format("Y-m-d H:i:s");
 
 echo "<hr>";
-$dateTime3 = new DateTime('2014-01-01 14:00:00');
-$dateTime3->sub(new DateInterval('P10D'));
+$dateTime3 = new DateTime('2014-03-31 00:00:00');
+$dateTime3->sub( new DateInterval("PT1M"));
 echo $dateTime3->format('Y-m-d H:i:s');
 
 echo "<hr>";
